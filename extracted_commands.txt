@@ -1,0 +1,22 @@
+COPIAR FICHEROS(LINUX)
+
+1. ls -l
+   - List detailed contents of the current directory.
+
+2. ls dir3
+   - List contents of the 'dir3' directory.
+
+3. ls carpetacopiada01
+   - List contents of the 'carpetacopiada01' directory.
+
+4. ls -l carpetacopiada01
+   - List detailed contents of the 'carpetacopiada01' directory.
+
+5. cp -v carpetacopiada01/f*.txt dir3
+   - Copy all files starting with 'f' from 'carpetacopiada01' to 'dir3', with verbose output.
+
+6. ls -l dir3
+   - List detailed contents of the 'dir3' directory after copying files.
+
+7. ls -al dir3
+   - List all contents, including hidden files, of 'dir3' with detailed information.
